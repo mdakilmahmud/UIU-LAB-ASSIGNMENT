@@ -1,0 +1,22 @@
+One crisp autumn morning, Alex was wandering through the village marketplace when he stumbled upon an old
+scroll hidden in a dusty corner of a bookstore. The scroll contained a riddle that intrigued him: “Look for the
+perfect square numbers in the world of mathematics, where each side holds its secrets”.                     [10]
+
+In addition to the scroll, Alex found a locked box and a list of numbers [16, 23, 25, 2, 9, 36, 50, 81]. Written on
+the box were instructions: “Password: the largest square number, the count of square numbers, the sum of square
+numbers”. Now, Alex needs your help to uncover the password.
+
+To assist Alex, create a Python program with the following functions:
+      • isSquareNumber(n): This function takes an integer as an argument and returns true if the integer is a perfect
+      square (like 1, 4, 9, 16, etc.), otherwise it returns false.
+      • largestSquareNumber(nums): This function takes a list of integers as an argument and returns the largest
+      number in the list which is a perfect square. You must use the isSquareNumber function to determine if a
+      number is a perfect square. Return -1 if there are no perfect square numbers in the list.
+      • countSquareNumbers(nums): This function also takes a list of integers and returns the count of numbers in
+      the list that are perfect squares, using the isSquareNumber function for verification.
+      • sumSquareNumbers(nums): This function takes a list of integers and calculates the sum of all the numbers
+      that are perfect squares in the list. Again, use the isSquareNumber function to verify each number.
+
+Finally, test your functions using the following list as a parameter: [16, 23, 25, 2, 9, 36, 50, 81]. For each function,
+print the result as follows, Largest Square Number: 81, The number of Square Numbers: 5, The sum of the Square
+Numbers: 167.
