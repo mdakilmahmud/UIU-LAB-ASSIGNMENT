@@ -1,0 +1,26 @@
+As the sun went down and made the village of Willowbrook look warm and peaceful, Emily felt like going to the
+old bookstore. She was curious, so she pushed open the old, squeaky door and went inside.                [10]
+
+Among the shelves filled with old books and scrolls covered in dust, Emily looked at a piece of old paper. Its edges
+were torn because of age. The paper had a message written on it, like a puzzle. It said, “Venture into the realm of
+perfect numbers, where each divisor sings its symphony”.
+
+Excited by the challenge, Emily’s eyes shined with determination as she found a chest tucked in the corner. It had
+fancy designs carved on its lid. Next to it was a list of numbers: [6, 28, 496, 8128, 33550336, 12, 97, 12345]. There
+were mysterious instructions written on the chest: ‘Open the box to find treasures. Password: the biggest perfect
+number, how many perfect numbers, and the total of perfect numbers’.
+
+Write a program in Python programming language that incorporates the following functions:
+      • isPerfectNumber(n): This function takes an integer as an argument and returns true if the integer is a perfect
+      number (a number that is equal to the sum of its proper divisors, excluding itself), otherwise it returns false.
+      • largestPerfectNumber(nums): This function takes a list of integers as an argument and returns the largest
+      number in the list which is a perfect "square" number. You must use the isPerfectNumber function to check
+      whether a number is perfect. Return the -1 list if there are no perfect numbers in the list.
+      • countPerfectNumbers(nums): This function takes a list of integers and returns the count of perfect numbers
+      found in the list, using the isPerfectNumber function for verification.
+      • sumPerfectNumbers(nums): This function takes a list of integers and calculates the sum of all numbers that
+      are perfect numbers in the list, using the isPerfectNumber function to check each number.
+
+Finally, test your functions using the following list as a parameter: [6, 28, 496, 8128, 33550336, 12, 97, 12345]. For
+each function, print the result as follows, Largest Perfect Number: 33550336, The number of Perfect Numbers: 5,
+The summation of the Perfect Numbers: 33558994.
