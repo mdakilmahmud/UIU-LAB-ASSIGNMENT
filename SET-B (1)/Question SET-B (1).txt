@@ -1,0 +1,30 @@
+You have a file named movieInfo.txt where each line contains information about a movie in the following format:
+Movie Title, Release Year, Director Name, Genre                                                           [8+7]
+
+Read the content of this file and store it in an appropriate data structure. Then, perform the following tasks:
+      (a) Prompt the user to input a release year and a genre. Search if any movies released in that year and belonging
+      to that genre exist in the stored data. If found, write the information of those movies into another file named
+      Yearwise Genre Movie.txt.
+      (b) Prompt the user to input the director’s name and search for movies directed by that director in the stored
+      data. Print the movie information of that director into the terminal.
+
+Sample Input:
+movieInfo.txt:
+Movie1, 2000, Director1, Comedy
+Movie2, 2010, Director2, Drama
+Movie3, 2005, Director1, Drama
+Movie4, 2020, Director3, Science Fiction
+Movie5, 2015, Director2, Adventure
+
+Input (a):
+Enter a release year: 2005
+Enter a genre: Drama
+Input (b):
+Enter director’s name: Director1
+
+Sample Output:
+Output (a): (Yearwise Genre Movie.txt):
+Movie3, 2005, Director1, Drama
+Output (b): (Terminal):
+Movie1, 2000, Director1, Comedy
+Movie3, 2005, Director1, Drama
