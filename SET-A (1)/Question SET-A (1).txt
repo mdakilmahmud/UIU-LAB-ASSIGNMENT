@@ -1,0 +1,24 @@
+You have a file named bookInfo.txt where each line contains information about a book in the following format:
+Book Name, Price, Author Name, Genre Read the content of this file and store it in an appropriate data structure.
+Then, perform the following tasks:                                                                          [8+7]
+
+(a) Prompt the user to input an author’s name. Search if any books by that author exist in the stored data. If
+found, write the information of the books authored by that author into another file named Authorwise Book.txt.
+(b) Find the book with the highest price and print its information in the terminal.
+
+Sample Input:
+bookInfo.txt:
+Book1, 20.99, Author1, Fiction
+Book2, 15.50, Author2, Mystery
+Book3, 30.00, Author1, Mystery
+Book4, 25.75, Author3, Science Fiction
+Book5, 18.99, Author2, Adventure
+Input:
+Enter an author’s name: Author1
+
+Sample Output:
+Output: (Authorwise Book.txt):
+Book1, 20.99, Author1, Fiction
+Book3, 30.00, Author1, Mystery
+Output: (Terminal):
+Book3, 30.00, Author1, Mystery
